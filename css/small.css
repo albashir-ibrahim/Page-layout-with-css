@@ -9,8 +9,40 @@ body {
 
 /* Grid rules*/
 .row {clear: both}
+.limited {
+    max-width: 1140px;
+    margin: auto;
+}
 .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
 .small-12{width: 100%;}
+
+/*header rules*/
+header {
+    background-color: #9b87b8;
+}
+
+header img {
+    float: left;
+    height: 85px;
+    padding: 10px;
+}
+
+header h1, header h2 {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+
+header h1 {
+    padding: .5rem 0 0 0;
+    font-size: 1.95rem;
+}
+
+header h2 {
+    padding: .2rem 0 0 0;
+    font-size: 1.05rem;
+}
 
 
 footer {
