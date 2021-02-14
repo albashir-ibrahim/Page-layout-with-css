@@ -24,12 +24,42 @@
     </div><!--end of row-->
 </header>
     
-<nav>
-
+<nav class="clearfix">
+    <div class="row limited">
+        <button id="hamburgerBtn">&#9776</button>
+        <ul id="primaryNav">
+            <li class="active"><a href="#">Specials</a></li>
+            <li><a href="#">Cheese Cakes</a></li>
+            <li><a href="#">Fruit Pies</a></li>
+            <li><a href="#">Swag Shop</a></li>
+        </ul>
+    </div><!--end of row-->
 </nav>
 
-<main>
-<h1>Hello World</h1>
+<main class="clearfix">
+<div class="row limited">
+    <section class="column small-12">
+        <img src="images/bethany-fullsize.jpg" alt="bety's hero image" width="1140" height="561">
+    </section>
+</div><!--end of row-->
+<div class="row limited">
+    <section class="column small-12">
+        <h1>This Week's Specials</h1>
+    </section>
+</div><!--end of row-->
+<div class="row limited">
+    <section class="column small-12 medium-6 labeled">
+        <h6>Apple Pie</h6>
+        <img src="images/products/applepie.jpg" alt="apple pie">
+        <p>SALE: $5.99</p>
+    </section>
+    <section class="column small-12 medium-6 labeled">
+        <h6>Cheese Cake</h6>
+        <img src="images/products/cheesecake.jpg" alt="cheese">
+        <p>SALE: $6.99</p>
+    </section>
+</div><!--end of row-->
+
 </main>
 
 <footer class="clearfix">
@@ -66,5 +96,6 @@
         </section>
         </div> <!-- end row -->
 </footer>
+<script src="js/menutoggle.js"></script>
 </body>
 </html>
